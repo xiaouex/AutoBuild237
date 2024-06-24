@@ -17,7 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 sed -i '1i src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '2i src-git small https://github.com/kenzok8/small' feeds.conf.default
-#sed -i '3i src-git opentopd https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
+sed -i '3i src-git opentopd https://github.com/sirpdboy/sirpdboy-package' feeds.conf.default
 
 #sed -i '5s/.*/& bridger/' $GITHUB_WORKSPACE/openwrt/target/linux/mediatek/filogic/target.mk
 #cp -f $GITHUB_WORKSPACE/Config.in $GITHUB_WORKSPACE/openwrt/toolchain/Config.in
