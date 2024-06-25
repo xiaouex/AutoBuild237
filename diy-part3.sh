@@ -1,4 +1,4 @@
-./scripts/feeds install -a && rm -rf feeds/luci/applications/luci-app-openclash
+./scripts/feeds update -a && rm -rf feeds/luci/applications/luci-app-openclash
 rm -rf feeds/kenzo/luci-theme-argon
 rm -rf feeds/kenzo/luci-app-argon-config
 cp -r feeds/luci/themes/luci-theme-argon feeds/kenzo/luci-theme-argon
